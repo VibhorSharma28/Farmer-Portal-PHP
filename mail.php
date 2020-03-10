@@ -7,8 +7,8 @@
     $mail->SMTPAuth = true;
     $mail->SMTPSecure = 'tls';
 
-    $mail->Username = 'vibhorsharma.vb@gmail.com';
-    $mail->Password = 'vibhor12345';
+    $mail->Username = 'mail id';
+    $mail->Password = 'password';
 
     $mail->setFrom('vibhorsharma.vb@gmail.com','Prathviraj Biotech India');
     $mail->addAddress('vibsgfs@gmail.com');
